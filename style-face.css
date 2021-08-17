@@ -1,0 +1,122 @@
+body {
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+#block1{
+    margin: 50px;
+}
+
+form{
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+header{
+    position: absolute;
+    background-color:rgb(232, 234, 235);
+    width: 100%;
+    height: 90%;
+}
+form .mb-3{
+    
+    width: 350px;
+    
+}
+.container .row{
+    width: 1000px;
+}
+.container H1{
+    color: rgb(24 119 242);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container #p1{
+    color: black;
+    font-weight: bold;
+    width: 400px;
+}
+#formm{
+    box-shadow: cornflowerblue;
+    background-color:white;
+    width:  400px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form input{
+    margin: -5px;
+}
+/********************************************************************************************************/
+#forgotten{
+    text-align: center;
+    border-bottom: 1px solid silver;
+    padding-bottom: 5%;
+    
+}
+a:link{
+    text-decoration: none;
+}
+#bt{
+    
+    font-weight: bold;
+    background-color:rgb(29, 196, 29) !important;
+    width: max-content;
+    height: 47px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 75px;
+    border-color: rgb(29, 196, 29)!important;
+    
+    
+    
+    
+}
+#bt:hover{
+    background-color: rgb(6, 168, 6);
+}
+
+a:hover{
+    text-decoration: underline;
+    
+}
+#creat{
+margin-top: 40px;
+
+
+}
+#a2:link{
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+#a2:hover{
+    text-decoration: underline;
+    
+}
+footer{
+    position:absolute;
+    width: 100%;
+    font-size: 12px;
+    top: 90%;
+    height: 10%;    
+}
